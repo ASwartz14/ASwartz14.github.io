@@ -1,0 +1,62 @@
+body {
+    color:#eee;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+    background-image: url("jack-oldham-mountain-galaxy-background-1.jpg")
+}
+
+header {
+    margin-top: auto;
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;;
+    padding: 20px;
+    text-align: center;
+    margin-top:0;
+}
+
+
+.clearfix::after {
+    content: ""; 
+    display: block;
+    clear: both;
+    
+}
+
+h2 {
+    color: #eee;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+#bio-image,
+#main-bio  {
+    float: left;   
+}
+
+#bio-image {
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#main-bio {
+    width: 50%;
+    margin: 30px;
+    
+}
+
+#contact-info {
+    width:30%;
+    float: right;
+    margin: 30px;
+
+}
+
+a{
+    color: #f50a35;
+}
