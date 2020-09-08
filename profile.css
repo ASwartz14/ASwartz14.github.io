@@ -3,26 +3,49 @@
 }
 
 body {
-    color:#eee;
     margin: 0;
     padding: 0;
     line-height: 1.5rem;
-    background-image: url("jack-oldham-mountain-galaxy-background-1.jpg");
+    font-family: 'Francois One', sans-serif;
+    
+
+}
+.background-img:{
+    position:relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-img::before {
+    content: "";
     background-repeat: no-repeat;
     background-size: cover;
-    text-shadow: slategrey 3px;
+    background-image:url("jack-oldham-mountain-galaxy-background-1.jpg");
+    opacity: .8;
+    position: absolute;
+    top: 0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
 }
+
 
 header {
     margin-top: auto;
 }
 
 h1 {
-    color: #eee;
+    color:rgb(177, 20, 85);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #000;
     font-size: xx-large;
     padding: 20px;
     text-align: center;
     margin-top:0;
+    position: relative;
+    
 }
 
 
@@ -34,15 +57,19 @@ h1 {
 }
 
 h2 {
-    color: #eee;
+    color:rgb(177, 20, 85);
     font-size: 26px;
     text-align: left;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #000;
+    position: relative;
 }
 
 
 #bio-image,
 #main-bio  {
     float: left;   
+    position: relative;
 }
 
 #bio-image {
@@ -54,7 +81,10 @@ h2 {
 #main-bio {
     width: 50%;
     margin: 30px;
-    font-size: larger;
+    font-size: large;
+    color: rgb(177, 20, 85);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #000;
     
 }
 
@@ -63,10 +93,13 @@ h2 {
     float: right;
     margin: 30px;
     font-size: large;
-
+    color: rgb(177, 20, 85);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #000;
+    position: relative;
 }
 
-a{
-    color: #f50a35;
-    text-shadow: slategrey 3px;
+a {
+    color:rgb(168, 8, 75);
+    position: relative;
 }
