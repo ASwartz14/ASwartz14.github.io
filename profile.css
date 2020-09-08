@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     color:#eee;
     margin: 0;
     padding: 0;
     line-height: 1.5rem;
-    background-image: url("jack-oldham-mountain-galaxy-background-1.jpg")
+    background-image: url("jack-oldham-mountain-galaxy-background-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: slategrey 3px;
 }
 
 header {
@@ -12,7 +19,7 @@ header {
 
 h1 {
     color: #eee;
-    font-size: 28px;;
+    font-size: xx-large;
     padding: 20px;
     text-align: center;
     margin-top:0;
@@ -28,7 +35,7 @@ h1 {
 
 h2 {
     color: #eee;
-    font-size: 24px;
+    font-size: 26px;
     text-align: left;
 }
 
@@ -47,6 +54,7 @@ h2 {
 #main-bio {
     width: 50%;
     margin: 30px;
+    font-size: larger;
     
 }
 
@@ -54,9 +62,11 @@ h2 {
     width:30%;
     float: right;
     margin: 30px;
+    font-size: large;
 
 }
 
 a{
     color: #f50a35;
+    text-shadow: slategrey 3px;
 }
